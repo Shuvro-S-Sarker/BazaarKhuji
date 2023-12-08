@@ -1,0 +1,99 @@
+.header {
+    background-color: #6aaceb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6aaceb;
+}
+
+.login-container {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 100px auto;
+    max-width: 400px;
+}
+
+.representative-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.product-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.logout-button {
+    position: absolute;
+    bottom: 0 px;
+    right: 2px;
+}
+
+button {
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+}
